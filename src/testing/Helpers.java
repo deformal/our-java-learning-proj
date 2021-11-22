@@ -16,9 +16,6 @@ public class Helpers {
      System.out.println(sum);
      sc.close();
     }
-<<<<<<< HEAD
-
-=======
     
     public void Sub(){
         Scanner sc = new Scanner(System.in);
@@ -30,6 +27,5 @@ public class Helpers {
         System.out.println(sub);
         sc.close();
        }
->>>>>>> 435ba451d80e95b5805651d704c6935a1a3ef1be
 }
 
