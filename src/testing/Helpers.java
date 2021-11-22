@@ -16,5 +16,6 @@ public class Helpers {
      System.out.println(sum);
      sc.close();
     }
+
 }
 
