@@ -16,5 +16,16 @@ public class Helpers {
      System.out.println(sum);
      sc.close();
     }
+    
+    public void Sub(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Please enter first number");
+        Integer firstNum = sc.nextInt();
+        System.out.println("Please enter second number");
+        Integer secondNum = sc.nextInt();
+        Integer sub = firstNum - secondNum;
+        System.out.println(sub);
+        sc.close();
+       }
 }
 
