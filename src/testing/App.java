@@ -3,11 +3,12 @@ package testing;
 import org.json.simple.parser.ParseException;
 
 import java.io.IOException;
+
 import java.util.HashMap;
 
 public class App {
     public static void main(String... args)
-            throws IOException, InterruptedException, ParseException {
+            throws IOException, InterruptedException, ParseException{
         // for the http class
         Httpmodule newRequest = new Httpmodule("5"); // fetches data for luke skywalker
         newRequest.getStarWarsPeople();
@@ -25,5 +26,13 @@ public class App {
         for (String element : response3.values()) {
             System.out.println(element);
         }
+
+            SQLCONNECTION connt = new SQLCONNECTION();
+            connt.connect();
+            System.out.println(connt);
+
+            Datainsert datainsert = new Datainsert();
+            datainsert.Datainserted();
+
     }
 }
